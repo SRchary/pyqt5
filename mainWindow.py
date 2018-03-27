@@ -1,7 +1,6 @@
 import sys
 from PyQt5 import QtGui;
 from PyQt5.QtWidgets import QApplication ,QMainWindow
-
 class Window(QMainWindow):
 
     def __init__(self):
@@ -20,7 +19,6 @@ class Window(QMainWindow):
         self.setGeometry(self.top ,self.left ,self.width ,self.height)
         self.setWindowIcon(QtGui.QIcon('images/koala.jpg'))
         self.show()
-
 
 App = QApplication(sys.argv)
 mywindow = Window()
